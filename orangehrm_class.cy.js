@@ -1,5 +1,3 @@
-//"use before each when you need to use same set of functions / entries for the entire test"
-
 describe('Alpha Test', () => {
     beforeEach(() => {
         cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
